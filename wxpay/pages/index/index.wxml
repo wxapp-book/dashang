@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view   class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatar_url}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.province}}</text>
+     <text class="userinfo-nickname">{{userInfo.city}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">如果喜欢就打赏1分钱吧！</text>
+  </view>
+  
+
+  <view class="donate" bindtap="goPay">打赏</view>
+</view>
